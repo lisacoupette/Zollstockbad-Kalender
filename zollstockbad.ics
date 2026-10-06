@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zollstockbad//Kombibad-Zeiten//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zollstockbad Öffnungszeiten
+
+N:=========================================
+N: WINTERSAISON (Hallenbad): Mitte Sep bis Mitte Mai
+N:=========================================
+
+BEGIN:VEVENT
+SUMMARY:Zollstockbad geöffnet (Hallenbad)
+DTSTART;TZID=Europe/Berlin:20261005T100000
+DTEND;TZID=Europe/Berlin:20261005T213000
+RRULE:FREQ=WEEKLY;BYDAY=MO
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Zollstockbad geöffnet (Hallenbad Frühschwimmen)
+DTSTART;TZID=Europe/Berlin:20261006T063000
+DTEND;TZID=Europe/Berlin:20261006T080000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Zollstockbad geöffnet (Hallenbad)
+DTSTART;TZID=Europe/Berlin:20261007T063000
+DTEND;TZID=Europe/Berlin:20261007T213000
+RRULE:FREQ=WEEKLY;BYDAY=WE
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Zollstockbad geöffnet (Hallenbad)
+DTSTART;TZID=Europe/Berlin:20261009T063000
+DTEND;TZID=Europe/Berlin:20261009T213000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Zollstockbad geöffnet (Hallenbad)
+DTSTART;TZID=Europe/Berlin:20261010T090000
+DTEND;TZID=Europe/Berlin:20261010T170000
+RRULE:FREQ=WEEKLY;BYDAY=SA,SU
+END:VEVENT
+
+N:=========================================
+N: SOMMERSAISON (Freibad): Mitte Mai bis Mitte Sep
+N:=========================================
+
+BEGIN:VEVENT
+SUMMARY:Zollstockbad geöffnet (Freibad-Saison)
+DTSTART;TZID=Europe/Berlin:20270514T090000
+DTEND;TZID=Europe/Berlin:20270514T200000
+RRULE:FREQ=DAILY;UNTIL=20270914T200000
+END:VEVENT
+
+END:VCALENDAR
